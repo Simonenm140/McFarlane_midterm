@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Foldit:wght@100;400;600&family=Notable&family=Noto+Sans+Linear+B&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+div {
+    width: 1920px;
+    border: transparent;
+    padding: 50px;
+    margin: 10px;
+  }
+header {
+    display: flex;
+    flex: 1 2 100px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Lisu Bosa', serif;
+    font-size: 8vw;
+    background: linear-gradient(to right, rgb(0, 64, 255) 0%, rgb(11, 206, 245) 20%, rgb(64, 255, 0) 61%), linear-gradient(rgb(31, 116, 3) 52%, rgb(72, 193, 240) 60%, rgb(49, 5, 246) 61%);
+  /* you can change the colors based on your preference */
+    background-clip: text;
+  /*add this line, it defines how far the background should extend within an element, here we set it to text */
+    -webkit-background-clip: text;
+
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 450px;
+    justify-content: center;
+  }
+  
+div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+  }
+  
+
+img {
+    display: block;
+    margin: 10px;
+    align-content: center;
+}
+
+
+main {
+    display: flex;
+    flex: 1 2 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Noto Sans Linear B', sans-serif;
+    font-size: .8rem;
+    justify-content: center;
+}
+
+figcaption {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    font-size: 2vw;
+    line-height: normal;
+    color: #f76b00;
+    text-align: center
+}
+
+link {
+    color: #cc660e;
+    text-emphasis-color: #409263;
+    text-decoration: dashed;
+}
+
+a:visited {
+  color: fuchsia;
+}
+
+.row {
+    padding: 1rem;
+    overflow: hidden;
+    margin: .5rem;
+    max-width: 100%;
+
+}
+
+.row2 {
+    padding: 1rem;
+    max-width: 100%;
+    margin: .5rem;
+    overflow: hidden;
+}
+
+
+.row3 {
+    padding: 2rem;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+}
+
+/*centered image*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Notable', sans-serif;
+    font-weight: initial;
+    color: #3e00f9;
+    font-size: 11.4rem;
+    line-height: 8.5vw;
+    max-width: 80%;
+    text-shadow: 1px 1px #00fff2;
+    background-color:#42091600;;
+  }
+
+p {
+    position: relative;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2vw;
+    color: #ffc400;
+    text-shadow: #4c2700; 
+    text-align:right;
+}
+
+p2 {
+    position: relative;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2vw;
+    color: #ff00c8;
+    text-shadow: #4c2700; 
+    text-align:right;
+}
+
+li {
+    line-height: 1.2rem;
+    padding: .5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #f7b603;
+    background-color: linear-gradient(rgba(70, 159, 179, 0.7), rgba(237, 201, 165, 0.749));
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    font-size: 6vw;
+    line-height: normal;
+    color: #ff00c8;
+    text-align:end;
+    -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 2px;
+    text-align: right;    
+    }
+
+h6 {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    font-size: 6vw;
+    line-height: normal;
+    color: #ff00c8;
+    text-align:end;
+    -webkit-animation: breathing 5s ease-out infinite normal;
+    animation: breathing 5s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 2px;
+    text-align: left;    
+    }   
+
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+
+h2 {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: initial;
+    min-width: 100%;
+    color: #f76b00;
+    font-size: 4vw;
+    text-shadow: 1px 1px #420916;
+    text-align: right;
+
+}
+
+h3 {
+    font-family: 'Foldit', sans-serif;
+    color: #cc660e;
+    font-size: 2rem;
+    text-shadow: 1px 1px #de1745;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Notable', sans-serif;
+    font-weight: initial;
+    color: #3e00f9;
+    text-shadow: 1px 1px #00fff2;
+    font-size: 4vw;
+    text-align: right
+}
+
+h5 {
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    font-size: 4vw;
+    line-height: normal;
+    color: #00ff95;
+    text-align:right;
+    min-width: 100%;
+
+}
+
+nav {
+  display: block;
+  font-family: 'Notable', sans-serif;
+  font-weight: initial;
+  color: #3e00f9;
+  text-shadow: 1px 1px #00fff2;
+  font-size: 4vw;
+  line-height: auto;
+  width: 1920px;
+  text-align: center
+}
+
+footer {
+    display: flex;
+    flex: 1 2 100px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Lisu Bosa', serif;
+    font-size: 8vw;
+    background: linear-gradient(to right, rgb(0, 64, 255) 0%, rgb(11, 206, 245) 20%, rgb(64, 255, 0) 61%), linear-gradient(rgb(31, 116, 3) 52%, rgb(72, 193, 240) 60%, rgb(49, 5, 246) 61%);
+  /* you can change the colors based on your preference */
+    background-clip: text;
+  /*add this line, it defines how far the background should extend within an element, here we set it to text */
+    -webkit-background-clip: text;
+
+}
